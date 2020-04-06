@@ -1,0 +1,37 @@
+<!--pages/home/home.wxml-->
+<view class="container">
+  <view class="search">
+    <image src="../../src/icon/delete.png" class="deleteImg"></image>
+    <image src="../../src/icon/search.png" class="searchImg"></image>
+    <input placeholder="搜疾病/症状/科室" class="inputSearch"></input>
+  </view>
+  <view class="content">
+    <view class="typeList">
+      <view class="type"  wx:for="{{typeArray}}">
+        <text class="typeText">{{item.type}}</text>
+      </view>
+    </view>
+    <view class="doctorList">
+      <view class="doctor" wx:for="{{doctorArray}}">
+        <image src="{{item.imgurl}}" class="doctorImg"></image>
+        <view class="doctorInfo">
+          <view class="doctorNamePos">
+            <text class="doctorName">{{item.doctorName}}</text>
+            <text class="doctorPos">{{item.doctorPos}}</text>
+          </view>
+          <text class="doctorDep">{{item.doctorDep}}</text>
+          <view class="doctorScore">
+            <image src="../../src/icon/star.png" class="star"></image>
+            <text class="score">{{item.score}}</text>
+            <text class="review">{{item.review}}</text>
+          </view>
+          <text class="doctorSpecial">{{item.doctorSpecial}}</text>
+          <view class="priceConsult">
+            <text class="price">{{item.price}}</text>
+            <button style="width:auto" class="consultButton">向他咨询</button>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

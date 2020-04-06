@@ -1,9 +1,8 @@
 {
   "pages": [
     "pages/register/register",
-    "pages/personal/personal"
-    
-    
+    "pages/personal/personal",
+    "pages/home/home"
   ],
   "window": {
     "backgroundTextStyle": "light",

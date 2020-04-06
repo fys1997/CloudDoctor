@@ -1,0 +1,204 @@
+/* pages/home/home.wxss */
+.container
+{
+  background-color: ghostwhite;
+}
+.search
+{
+  border-radius: 40rpx;
+  background-color: rgb(255, 255, 255);
+  margin-top: -180rpx;
+  height: 98rpx;
+  width: 90%;
+}
+.searchImg
+{
+  border-top-left-radius: 40rpx;
+  border-bottom-left-radius: 40rpx;
+  margin-top: 0;
+  height: 99rpx;
+  width: 15%;
+  float: left;
+}
+.inputSearch
+{
+
+  margin-left: 15%;
+  width: 70%;
+  height: 98rpx;
+  font-size: 35rpx;
+}
+.deleteImg
+{
+  width: 15%;
+  margin-top: 0;
+  height: 99rpx;
+  border-bottom-right-radius: 40rpx;
+  border-top-right-radius: 40rpx;
+  float: right;
+}
+.content
+{
+  margin-top: 50rpx;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  display: flex;
+  height: auto;
+  width: 100%;
+}
+.typeList
+{
+  width: 20%;
+  margin-left: 0;
+  display: block;
+  height: auto;
+}
+.doctorList
+{
+  width: 80%;
+  float: right;
+  
+  height: auto;
+}
+.type
+{
+  margin-top: 10rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10rpx;
+  width: 90%;
+  height: 138rpx;
+  background-color:#ffffff;
+  border-bottom-color:#c0c0c0; 
+  border-bottom-width:4rpx;
+  border-bottom-style:solid;
+  border-radius: 10rpx;
+  text-align: center;
+}
+.typeText
+{
+  font-size: 35rpx;
+  font-weight: bolder;
+  color: rgb(81, 65, 226);
+  text-align: center;
+}
+.doctor
+{
+  margin-top: 10rpx;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-left: 5rpx;
+  height: auto;
+  width: 98%;
+  background-color:#ffffff;
+  border-radius: 20rpx;
+}
+.doctorImg
+{
+  width:129rpx;
+  height:128rpx;
+  margin-top:49rpx;
+  margin-left:43rpx;
+  float:left;
+  border-radius:20rpx;
+}
+.doctorInfo
+{
+  width:316rpx;
+  height:auto;
+  margin-top:49rpx;
+  margin-left:44rpx;
+  margin-bottom: 49rpx;
+  float:left;
+}
+.doctorNamePos
+{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: auto;
+}
+.doctorName
+{
+  font-size: 40rpx;
+  font-weight: bold;
+  color: rgb(110, 110, 247);
+}
+.doctorPos
+{
+  margin-top: 10rpx;
+  margin-left: 30rpx;
+  font-size: 28rpx;
+  color: #c0c0c0;
+}
+.doctorDep
+{
+  margin-top: 5rpx;
+  font-size: 30rpx;
+  color: black;
+}
+.doctorScore
+{
+  margin-top: 8rpx;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+}
+.star
+{
+  width: 40rpx;
+  height: 40rpx;
+  float: left;
+}
+.score
+{
+  margin-left: 9rpx;
+  font-size: 30rpx;
+  font-weight: bolder;
+  color:black
+}
+.review
+{
+  margin-left: 9rpx;
+  font-size: 30rpx;
+  color: #c0c0c0;
+}
+.doctorSpecial
+{
+  width: 100%;
+  height: auto;
+  line-height: 1em;
+  margin-top: 10rpx;
+  font-size: 25rpx;
+  color: #c0c0c0;
+}
+.priceConsult
+{
+  margin-top: 10rpx;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+  height: auto;
+}
+.price
+{
+  margin-top: 10rpx;
+  float: left;
+  font-size: 35rpx;
+  font-weight: bolder;
+  color: red;
+}
+.consultButton
+{
+  margin-right: 0;
+  height: auto;
+  float: right;
+  border-radius: 40rpx;
+  background-color: rgb(81, 65, 226);
+  font-size: 24rpx;
+  color: #ffffff;
+}
